@@ -1,13 +1,8 @@
 #set document(title: "Helix Cheat Sheet", author: "Lennart Kloock")
 
-#let default_theme = toml("default_theme.toml")
+#let default_theme = toml("themes/default.toml")
 
-#let theme_path = "themes/onedarkpro.toml"
-// #let theme_path = "themes/horizon-bright.toml"
-// #let theme_path = "default_theme.toml"
-// #let theme_path = "themes/gruvbox_dark_hard.toml"
-// #let theme_path = "themes/monokai.toml"
-#let theme_path = "themes/monokai_pro.toml"
+#let theme_path = sys.inputs.at("theme", default: "themes/default.toml")
 #let theme_name = theme_path.split("/").last().split(".").first()
 #let theme = toml(theme_path)
 
