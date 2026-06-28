@@ -1,6 +1,6 @@
 # Helix Cheat Sheet
 
-Generate Helix Cheat Sheet in Helix themes.
+Generate Helix Cheat Sheet in any Helix theme.
 
 To generate a cheat sheet in your prefered theme
 - copy your theme file to the `themes` directory and
