@@ -1,8 +1,15 @@
 # Helix Cheat Sheet
 
-Generate Helix Cheat Sheet in any Helix theme.
+[Helix](https://helix-editor.com/) keybinding cheat sheet that matches your editor's theme.
 
-To generate a cheat sheet in your prefered theme
+The sheet covers most NORMAL and INSERT mode keybinds, but it is not intended to be used as a full reference.
+Rather, it is designed to be a quick look-up table for the most important keybinds.
+
+## Build
+
+Prerequisites: [Typst must be installed](https://typst.app/open-source#download)
+
+To generate a cheat sheet in your preferred theme
 - copy your theme file to the `themes` directory and
 - compile with `typst compile main.typ --input theme=themes/<theme>.toml`.
 
