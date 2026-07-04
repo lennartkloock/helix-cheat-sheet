@@ -45,7 +45,7 @@
   footer: [Full keymap: #link("https://docs.helix-editor.com/keymap.html")],
 )
 #let fg_color = color("ui.text", "fg")
-#set text(fill: fg_color, lang: "en", font: "Fira Sans")
+#set text(fill: fg_color, lang: "en", font: "Fira Sans", size: 10pt)
 #set table(align: horizon, stroke: (x, y) => (top: if y > 0 { fg_color }), inset: (x: 0.25em, y: 0.5em))
 #show table.cell.where(x: 0): set par(leading: 0.25em)
 #show table.cell.where(x: 1): set par(leading: 0.5em)
@@ -125,6 +125,8 @@
     [`Alt-d`],[Delete],
     [`c`],[Delete (and yank) and insert],
     [`Alt-c`],[Delete and insert],
+    [`p`],[Paste after selection],
+    [`P`],[Paste before selection],
     [`>`],[Indent],
     [`<`],[Unindent],
     [`=`],[Format],
@@ -141,5 +143,5 @@
     [`Ctrl-k`],[Delete to end of line],
   )
 
-  Use `z`, `g`, `m`, `Ctrl-w` and `Space` for minor modes
+  Use `v`, `g`, `m`, `z`, `Ctrl-w`, `Space`, `[` and `]` for minor modes
 ]
