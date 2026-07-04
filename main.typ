@@ -142,6 +142,6 @@
     [`Ctrl-u`],[Delete to start of line],
     [`Ctrl-k`],[Delete to end of line],
   )
-
-  Use `v`, `g`, `m`, `z`, `Ctrl-w`, `Space`, `[` and `]` for minor modes
 ]
+
+Use `v`, `g`, `m`, `z`, `Ctrl-w`, `Space`, `[` and `]` for minor modes
