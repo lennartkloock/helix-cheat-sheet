@@ -5,6 +5,8 @@
 The sheet covers most NORMAL and INSERT mode keybinds, but it is not intended to be used as a full reference.
 Rather, it is designed to be a quick look-up table for the most important keybinds.
 
+If you're looking for a printable theme, I recommend `jetbrains_cyan_light` previewed below.
+
 ## Build
 
 Prerequisites: [Typst must be installed](https://typst.app/open-source#download)
@@ -15,14 +17,22 @@ To generate a cheat sheet in your preferred theme
 
 ## Output
 
-|Theme: default|
+|Theme: onedark|
 |---|
-|<img width="794" height="1123" alt="main" src="https://github.com/user-attachments/assets/3002ec79-51d9-4867-a68d-6a68c0636640" />|
+|<img width="794" height="1123" alt="onedark" src="https://github.com/user-attachments/assets/3fa35b18-409c-4b69-8add-32cee14012a6" />|
+|[Download PDF](https://github.com/user-attachments/files/29930858/onedark.pdf)|
 
 |Theme: ayu_dark|
 |---|
-|<img width="794" height="1123" alt="ayu_dark" src="https://github.com/user-attachments/assets/0a41f2f7-9de9-45e6-9b98-4d638998e958" />|
+|<img width="794" height="1123" alt="ayu_dark" src="https://github.com/user-attachments/assets/9ece5b04-d1cb-49ec-af6e-6f0c177d5dbb" />|
+|[Download PDF](https://github.com/user-attachments/files/29930864/ayu_dark.pdf)|
 
-|Theme: onedark|
+|Theme: default|
 |---|
-|<img width="794" height="1123" alt="onedark" src="https://github.com/user-attachments/assets/04e978cd-533f-4cca-873b-6b3099f6079b" />|
+|<img width="794" height="1123" alt="default" src="https://github.com/user-attachments/assets/b24ea273-a1b0-4a87-afa4-7c827f7a8922" />|
+|[Download PDF](https://github.com/user-attachments/files/29930866/default.pdf)|
+
+|Theme: jetbrains_cyan_light|
+|---|
+|<img width="794" height="1123" alt="jetbrains_cyan_light" src="https://github.com/user-attachments/assets/62fe51ca-c6b2-4bf7-ade2-a7e2d9117411" />|
+|[Download PDF](https://github.com/user-attachments/files/29930837/jetbrains_cyan_light.pdf)|
